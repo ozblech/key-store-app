@@ -1,8 +1,8 @@
-replicaCount: 2
+replicaCount: 1
 image:
   repository: ozblech/kv-store-app  # Replace with your Docker Hub username
   tag: "latest"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always  # Changed from IfNotPresent
 service:
   type: LoadBalancer
   port: 80
