@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 2
 image:
   repository: ozblech/kv-store-app  # Replace with your Docker Hub username
   tag: "latest"
