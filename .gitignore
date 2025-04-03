@@ -4,6 +4,6 @@ node_modules
 build
 # ignore log files
 *.log
-# ignore package-lock.json
-package-lock.json
-package.json
+# ignore venv files
+venv
+
